@@ -1,0 +1,16 @@
+*.pyc
+*.log
+*DS_Store
+.idea
+*.out
+*~
+*.conf
+
+scan.log
+
+Config.py
+
+Run.py
+xunfengdb/
+DBData/
+masscan/

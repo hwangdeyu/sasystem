@@ -1,0 +1,8 @@
+six>=1.6.0
+Flask
+pymongo
+xlwt
+paramiko==1.15.3
+packaging
+appdirs
+gunicorn
