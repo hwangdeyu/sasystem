@@ -4,13 +4,13 @@
 .idea
 *.out
 *~
-*.conf
 
+masscan/windows_64/paused.conf
+paused.conf
 scan.log
-
 Config.py
 
 Run.py
 xunfengdb/
 DBData/
-masscan/
+
