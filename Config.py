@@ -9,3 +9,5 @@ class ProductionConfig(Config):
     DBUSERNAME = 'scan'
     DBPASSWORD = 'your password'#'scanlol66'
     DBNAME = 'xunfeng'
+	
+	#test
