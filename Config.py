@@ -10,4 +10,3 @@ class ProductionConfig(Config):
     DBPASSWORD = 'your password'#'scanlol66'
     DBNAME = 'xunfeng'
 	
-	#test
