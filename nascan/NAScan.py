@@ -1,5 +1,4 @@
 ﻿# coding:utf-8
-# author:wolf@YSRC
 import thread
 from lib.common import *
 from lib.start import *
