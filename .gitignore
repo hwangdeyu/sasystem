@@ -10,6 +10,8 @@ paused.conf
 scan.log
 Config.py
 Run.py
+Run.bat
+
 xunfengdb/
 DBData/
 
