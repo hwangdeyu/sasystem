@@ -19,6 +19,7 @@ class SendPingThr(threading.Thread):
     def run(self):
         for ip in self.ipPool:
             try:
+                time.sleep(0.1)
                 self.Sock.sendto(self.packet, (ip, 0))
             except socket.timeout:
                 break

@@ -10,7 +10,7 @@ def write(scan_type, host, port, info):
     port = int(port)
     try:
         log_str = ""
-        time_str = time.strftime('%X', time.localtime(time.time()))
+        time_str = time.strftime('%Y-%m-%d %X', time.localtime(time.time()))
         if scan_type == 'portscan':
             log_str = "[%s] %s:%d open" % (time_str, host, port)
         elif scan_type == 'server':

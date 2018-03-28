@@ -50,7 +50,6 @@ class start:
         global AC_PORT_LIST
         for ip in self.scan_list:
             if "/" in ip: ip = cidr.CIDR(ip)
-            print '[*]CIDR ip:',ip
             if not ip:continue
             ip_list = self.get_ip_list(ip)
             for white_ip in self.white_list:
