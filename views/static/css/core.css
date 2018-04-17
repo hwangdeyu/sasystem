@@ -23,7 +23,8 @@ File: Core
    Common
 ============= */
 body {
-  background: #253138;
+  /*background: #253138;*/
+  background: #253158;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding-bottom: 60px;
@@ -33,7 +34,8 @@ body {
 html {
   position: relative;
   min-height: 100%;
-  background: #253138;
+  /*background: #484891;*/
+  background: #253198;
 }
 h1,
 h2,
@@ -351,7 +353,8 @@ a:focus {
   -moz-border-radius: 5px;
   background-clip: padding-box;
   margin-bottom: 20px;
-  background-color: #2f3e47;
+  /*background-color: #2f3e47;*/
+  background-color: #2f3e67;
 }
 .card-box .card-drop {
   color: #98a6ad;

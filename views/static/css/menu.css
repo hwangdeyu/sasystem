@@ -37,7 +37,8 @@ File: Menu
   color: #71b6f9;
 }
 #topnav .topbar-main {
-  background-color: #1a2023;
+  /*background-color: #1a2023;*/
+  background-color: #1a2053;
 }
 #topnav .topbar-main .badge {
   position: absolute;
@@ -105,7 +106,8 @@ File: Menu
   font-weight: normal;
 }
 #topnav .navbar-custom {
-  background-color: rgba(40,40,40,0.6);
+ /* background-color: rgba(40,40,40,0.6);*/
+  background-color: rgba(40,40,40,0.6)
 }
 #topnav .navbar-toggle {
   border: 0;

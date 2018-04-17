@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="static/images/favicon.ico">
-    <title>Just test if changed</title>
+    <title>Bupt-Scan</title>
     {% block css %}
 
     {% endblock %}
@@ -30,7 +30,6 @@
 
 </head>
 
-
 <body>
 
 <!-- Navigation Bar-->
@@ -40,7 +39,7 @@
 
             <!-- LOGO -->
             <div class="topbar-left">
-                <a href="/filter" class="logo"><span>巡风</span></a>
+                <a href="/filter" class="logo"><span>北京邮电大学模拟漏洞攻击平台</span></a>
             </div>
             <!-- End Logo container-->
 
@@ -98,10 +97,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="/task"><i class="zmdi zmdi-archive"></i> <span> 任务 </span> </a>
+                        <a href="/task"><i class="zmdi zmdi-archive"></i> <span> 模拟攻击 </span> </a>
                     </li>
                     <li>
-                        <a href="/plugin"><i class="zmdi zmdi-puzzle-piece"></i> <span> 插件 </span> </a>
+                        <a href="/plugin"><i class="zmdi zmdi-puzzle-piece"></i> <span> 漏洞插件 </span> </a>
                     </li>
                     <li>
                         <a href="/analysis"><i class="zmdi zmdi-widgets"></i> <span> 统计 </span> </a>
@@ -113,6 +112,9 @@
                             <li><a href="/config?config=vulscan">扫描引擎</a></li>
                         </ul>
 
+                    </li>
+                    <li class="has-submenu">
+                        <a href="/config?config=nascan"><i class="zmdi zmdi-settings"></i> <span> DDos攻击 </span> </a>
                     </li>
 
                 </ul>
